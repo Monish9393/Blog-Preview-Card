@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="assets/images/favicon-32x32.png">    <style>
+        body{
+            background-color: hsl(47, 88%, 63%);
+            font-family: "Figtree", sans-serif;
+            
+        }
+        .card{
+            width: 300px;
+            background-color: hsl(0, 0%, 100%);
+            margin: 15% auto;
+            border-radius: 12px;
+            box-shadow: 9px 9px 0 0 black;
+            transition: transform 0.2 ease;
+            padding: 15px;
+           
+            
+        }
+        .card:hover{
+            transform: translate(-4px,-4px);
+        }
+        .card-img{
+            border-radius: 12px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        .card-tag{
+            display: inline-block;
+            background-color: hsl(47, 88%, 63%);
+            width: auto;
+            padding: 10px;
+            border-radius: 6px;
+            font-weight: 800;
+            margin-top: 15px;
+        }
+        .card-author{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img class="card-img" src="assets/images/illustration-article.svg">
+        <div class="card-tag">
+            Learning
+        </div>
+        <p style="font-weight: 600;">Published 21 Dec 2023</p>
+        <h3 style="font-weight: 900;">HTML & CSS foundations</h3>
+        <p style="font-weight: 500; color: hsl(0, 0%, 42%);">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+        <div class="card-author">
+            <img height="40px" src="assets/images/image-avatar.webp">
+            <h4 style="font-weight: 900;">Greg Hooper</h4>
+        </div>
+
+    </div>
+     <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Monish</a>.
+  </div>
+    
+</body>
+</html>
